@@ -18,4 +18,4 @@ CDN:
 <!-- materialize right-to-left -->
 <link rel="stylesheet" href="https://raw.githubusercontent.com/atechninfo/materialize-rtl/master/materialize.rtl.min.css"/>
 ```
-demo: + [https://yt-c.blogspot.com](yt-c.blogspot.com)
+demo: + [yt-c.blogspot.com](https://yt-c.blogspot.com)
