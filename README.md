@@ -16,6 +16,6 @@ CDN:
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/materialize-css@latest/dist/css/materialize.min.css"/>
 
 <!-- materialize right-to-left -->
-<link rel="stylesheet" href="https://raw.githubusercontent.com/atechninfo/materialize-rtl/master/materialize.rtl.min.css"/>
+<link rel="stylesheet" href="https://cdn.rawgit.com/atechninfo/materialize-rtl/e7b0efbc/materialize.rtl.min.css"/>
 ```
 demo: + [yt-c.blogspot.com](https://yt-c.blogspot.com)
