@@ -18,4 +18,5 @@ CDN:
 <!-- materialize right-to-left -->
 <link rel="stylesheet" href="https://cdn.rawgit.com/atechninfo/materialize-rtl/e7b0efbc/materialize.rtl.min.css"/>
 ```
-demo: + [yt-c.blogspot.com](https://yt-c.blogspot.com)
+
+استمتع
