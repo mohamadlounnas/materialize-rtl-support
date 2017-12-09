@@ -723,6 +723,29 @@ right:inherit;left:100%
  left:inherit;right:100%
  }
 }
+/* table */
+td, th {
+  text-align: right;
+}
+@media only screen and (max-width: 992px) {
+  table.responsive-table th {
+    text-align: left;
+  }
+  table.responsive-table thead {
+    float: right;
+  }
+  table.responsive-table th {
+    text-align: left;
+  }
+  table.responsive-table td {
+    text-align: right;
+  }
+  table.responsive-table.bordered tbody tr {
+    border-right: none;
+    border-left: 1px solid #d0d0d0;
+  }
+}
+
 /* Typography */
 blockquote {
     margin: 20px 0;
