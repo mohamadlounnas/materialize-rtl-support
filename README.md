@@ -19,11 +19,7 @@ CDN:
 <link rel="stylesheet" href="https://rawgit.com/atechninfo/materialize-rtl/master/materialize.rtl.min.css"/>
 ```
 
-
-
-ملاحظات في الإستعمال
-
-لا تتوفر أيقونات مناسبة تماما للإتجاه من اليمين لليسار لكن يمكنك قلب بعض الأيقونات على المحور لتغيير إتجاهها عبر إعطائها الكلاس التالي :
+material icons (add the class "rtlx"):
 ```html
 <i class="material-icons rtlx">play_arrow</i>
 ```
