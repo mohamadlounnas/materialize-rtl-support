@@ -23,3 +23,10 @@ material icons (add the class "rtlx"):
 ```html
 <i class="material-icons rtlx">play_arrow</i>
 ```
+
+Sidenav:
+```javascript
+$('.sidenav').sidenav({
+  edge: 'right'
+});
+```
