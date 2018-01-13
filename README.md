@@ -45,4 +45,16 @@ $('.sidenav').sidenav({
 });
 ```
 
+Range:  
+```javascript
+// -> https://refreshless.com/nouislider/slider-options/#section-direction
+var slider = document.getElementById('my-range');
+noUiSlider.create(slider, {
+  //...
+  direction: 'rtl',
+  //...
+});
+```
+
+
 support "Offsets, Push and Pull"  http://next.materializecss.com/grid.html#grid-offsets
