@@ -20,6 +20,7 @@ CDN:
 ```
 
 material icons (add the class "rtlx"):
+[Which icons should be mirrored for RTL?](https://google.github.io/material-design-icons/#which-icons-should-be-mirrored-for-rtl-)
 ```html
 <i class="material-icons rtlx">play_arrow</i>
 ```
