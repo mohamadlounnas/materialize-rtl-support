@@ -831,6 +831,17 @@ nav .brand-logo.center {
     -webkit-transform: translateX(50%);
     transform: translateX(50%);
 }
+nav .brand-logo.left {
+    left: 0.5rem;
+    padding: 0
+}
+@media only screen and (max-width: 992px) {
+ nav .brand-logo.left {
+  left:50%;
+  -webkit-transform:translateX(50%);
+  transform:translateX(50%)
+ }
+}
 nav ul li {
     float: right;
 }
