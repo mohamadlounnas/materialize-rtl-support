@@ -57,5 +57,36 @@ noUiSlider.create(slider, {
 });
 ```
 
+Tabs:  
+```javascript
+// -> https://github.com/atechninfo/materialize-rtl/blob/master/js/tabs.js
+$('ul.tabs').tabs({
+   //...
+   direction: 'auto', // default -> auto detect page direction rtl|ltr
+   //...
+});
+```
+
+functions:
+```javascript
+/**
+ * detect page direction 
+ */
+function isRTL(el)
+{
+	var x = document.getElementById(el) || document.body; // if "el" empty -> get body direction
+	if (x.currentStyle)
+		var y = x.currentStyle['direction'];
+	else if (window.getComputedStyle)
+		var y = document.defaultView.getComputedStyle(x,null).getPropertyValue('direction');
+  if (y == "rtl") {
+      return true;
+  } else {
+      return false;
+  }
+}
+```
+
+Enjoy ;)
 
 support "Offsets, Push and Pull"  http://next.materializecss.com/grid.html#grid-offsets
