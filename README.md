@@ -1,7 +1,7 @@
 # materialize-rtl
 materialize rtl support
 
-added after Original materialize:
+added after original materialize:
 ```html
 <!-- materialize -->
 <link rel="stylesheet" href="materialize.min.css"/>
@@ -13,10 +13,10 @@ added after Original materialize:
 CDN:
 ```html
 <!-- latest materialize -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Dogfalo/materialize@1.0.0-alpha.3/dist/css/materialize.min.css"/>
 
 <!-- materialize right-to-left -->
-<link rel="stylesheet" href="https://rawgit.com/atechninfo/materialize-rtl/master/materialize.rtl.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/atechninfo/materialize-rtl@1.0.0-alpha.3/dist/css/materialize.rtl.min.css"/>
 ```
 
 material icons (add the class "rtlx"):
