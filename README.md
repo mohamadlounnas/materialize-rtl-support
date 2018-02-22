@@ -13,7 +13,7 @@ added after original materialize:
 CDN:
 ```html
 <!-- latest materialize -->
-<link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/1.0.0-alpha.3/dist/css/materialize.min.css"/>
+<link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/1.0.0-alpha.4/dist/css/materialize.min.css"/>
 
 <!-- materialize right-to-left -->
 <link rel="stylesheet" href="https://rawgit.com/atechninfo/materialize-rtl/v1.0.0-alpha.3/dist/css/materialize.rtl.css"/>
