@@ -1110,3 +1110,7 @@ input:not([type]) + label::after, input[type="text"]:not(.browser-default) + lab
 .autocomplete-content img.right.circle {
     float: left!important
 }
+[type="checkbox"]:indeterminate + span:not(.lever)::before {
+    -webkit-transform-origin: 0;
+    transform-origin: 0
+}
