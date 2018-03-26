@@ -6,6 +6,7 @@ Components: 100% 💯
 Javascript: 98% 🥇
  - Carousel: carousel-item direction
  - Tabs: indicator > https://github.com/atechninfo/materialize-rtl/blob/master/dist/js/tabs.js
+
 Forms: 99% 🥇
 HTML5 Range: thumb direction
 👍
