@@ -930,17 +930,77 @@ nav .input-field label {
  }
 }
 /* ->Circular */
-.circle-clipper .circle {
-    left: 0;
-    right: auto
+@-webkit-keyframes container-rotate {
+ to {
+  -webkit-transform:rotate(-360deg)
+ }
 }
-.circle-clipper.left .circle {
-    right: auto;
-    border-right-color: transparent !important;
-    -webkit-transform: rotate(-129deg);
-    transform: rotate(-129deg);
+@keyframes container-rotate {
+ to {
+  -webkit-transform:rotate(-360deg);
+  transform:rotate(-360deg)
+ }
 }
-
+@-webkit-keyframes fill-unfill-rotate {
+ 12.5% {
+  -webkit-transform:rotate(-135deg)
+ }
+ 25% {
+  -webkit-transform:rotate(-270deg)
+ }
+ 37.5% {
+  -webkit-transform:rotate(-405deg)
+ }
+ 50% {
+  -webkit-transform:rotate(-540deg)
+ }
+ 62.5% {
+  -webkit-transform:rotate(-675deg)
+ }
+ 75% {
+  -webkit-transform:rotate(-810deg)
+ }
+ 87.5% {
+  -webkit-transform:rotate(-945deg)
+ }
+ to {
+  -webkit-transform:rotate(-1080deg)
+ }
+}
+@keyframes fill-unfill-rotate {
+ 12.5% {
+  -webkit-transform:rotate(-135deg);
+  transform:rotate(-135deg)
+ }
+ 25% {
+  -webkit-transform:rotate(-270deg);
+  transform:rotate(-270deg)
+ }
+ 37.5% {
+  -webkit-transform:rotate(-405deg);
+  transform:rotate(-405deg)
+ }
+ 50% {
+  -webkit-transform:rotate(-540deg);
+  transform:rotate(-540deg)
+ }
+ 62.5% {
+  -webkit-transform:rotate(-675deg);
+  transform:rotate(-675deg)
+ }
+ 75% {
+  -webkit-transform:rotate(-810deg);
+  transform:rotate(-810deg)
+ }
+ 87.5% {
+  -webkit-transform:rotate(-945deg);
+  transform:rotate(-945deg)
+ }
+ to {
+  -webkit-transform:rotate(-1080deg);
+  transform:rotate(-1080deg)
+ }
+}
 /*
  ******* javascript *******
  */
@@ -1067,6 +1127,9 @@ nav .input-field label {
     left: 0;
     right: auto
 }
+.select-dropdown li img {
+    float: left
+}
 /* Switches */
 .switch label input[type="checkbox"]:checked + .lever::before, .switch label input[type="checkbox"]:checked + .lever::after {
     right: 18px;
@@ -1098,6 +1161,10 @@ input:not([type]) + label::after, input[type="text"]:not(.browser-default) + lab
 .input-field > label:not(.label-icon).active,.input-field > label {
     -webkit-transform-origin: right;
     transform-origin: right;
+}
+.input-field .helper-text::after {
+    right: 0;
+    left: auto
 }
 /* ->File Input */
 .file-field .btn, .file-field .btn-large {
