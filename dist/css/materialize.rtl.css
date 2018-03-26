@@ -1,5 +1,5 @@
 /*
- * materialize RTL v1.0.0-alpha.3
+ * materialize RTL v1.0.0-alpha.4
  * By @atechninfo
  * Github: http://github.com/atechninfo/
  * Source Code: https://github.com/atechninfo/materialize-rtl
@@ -1106,4 +1106,7 @@ input:not([type]) + label::after, input[type="text"]:not(.browser-default) + lab
 .file-field .file-path-wrapper {
     padding-right: 10px;
     padding-left: 0;
+}
+.autocomplete-content img.right.circle {
+    float: left!important
 }
