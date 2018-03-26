@@ -8,6 +8,7 @@ Javascript: 98% 🥇
  - Tabs: indicator > https://github.com/atechninfo/materialize-rtl/blob/master/dist/js/tabs.js
 
 Forms: 99% 🥇
+
 HTML5 Range: thumb direction
 👍
 
