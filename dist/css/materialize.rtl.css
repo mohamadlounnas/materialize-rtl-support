@@ -1071,21 +1071,19 @@ nav .input-field label {
   -webkit-transform-origin: 0% 0%;
   transform-origin: 0% 0%;
 }
+[type="checkbox"]:indeterminate + span:not(.lever)::before {
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+}
 [type="checkbox"] + span:not(.lever)::before, [type="checkbox"]:not(.filled-in) + span:not(.lever)::after,[type="checkbox"].filled-in + span:not(.lever)::before, [type="checkbox"].filled-in + span:not(.lever)::after {
   right: 0;
   left: auto;
 }
-[type="checkbox"].filled-in:checked + span:not(.lever)::before {
-    top: 0;
-    right: 1px;
+[type="checkbox"].filled-in:checked + span:not(.lever)::before,[type="checkbox"].filled-in:not(:checked) + span:not(.lever)::before {
     -webkit-transform-origin: center;
     transform-origin: center;
-}
-[type="checkbox"].filled-in:not(:checked) + span:not(.lever)::before {
-    right: 6px;
     left: auto;
-    -webkit-transform-origin: 100% 100%;
-    transform-origin: 100% 100%;
+    right: 6px;
 }
 /* Chips */
 .chip {
@@ -1137,7 +1135,7 @@ nav .input-field label {
 }
 .switch label .lever::before, .switch label .lever::after {
     right: 0;
-    left: auto
+    left: auto;
 -webkit-transition: right 0.3s ease, background .3s ease, left 0.3s ease, background .3s ease, -webkit-box-shadow 0.1s ease, -webkit-transform .1s ease;
 transition: right 0.3s ease, background .3s ease, left 0.3s ease, background .3s ease, -webkit-box-shadow 0.1s ease, -webkit-transform .1s ease;
 transition: right 0.3s ease, background .3s ease, left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease;
@@ -1166,6 +1164,9 @@ input:not([type]) + label::after, input[type="text"]:not(.browser-default) + lab
     right: 0;
     left: auto
 }
+.autocomplete-content img.right.circle {
+    float: left!important
+}
 /* ->File Input */
 .file-field .btn, .file-field .btn-large {
     float: right;
@@ -1174,10 +1175,4 @@ input:not([type]) + label::after, input[type="text"]:not(.browser-default) + lab
     padding-right: 10px;
     padding-left: 0;
 }
-.autocomplete-content img.right.circle {
-    float: left!important
-}
-[type="checkbox"]:indeterminate + span:not(.lever)::before {
-    -webkit-transform-origin: 0;
-    transform-origin: 0
-}
+
