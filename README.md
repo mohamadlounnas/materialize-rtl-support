@@ -5,7 +5,7 @@ CSS: 100% 💯
 Components: 100% 💯
 Javascript: 98% 🥇
  - Carousel: carousel-item direction
- - Tabs: indicator > https://github.com/atechninfo/materialize-rtl/blob/master/dist/js/tabs.js
+ - Tabs: indicator > https://github.com/mohamedlounnas/materialize-rtl/blob/master/dist/js/tabs.js
 
 Forms: 99% 🥇
 
@@ -27,7 +27,7 @@ CDN:
 <link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/1.0.0-alpha.4/dist/css/materialize.min.css"/>
 
 <!-- materialize right-to-left -->
-<link rel="stylesheet" href="https://rawgit.com/atechninfo/materialize-rtl/v1.0.0-alpha.4/dist/css/materialize.rtl.css"/>
+<link rel="stylesheet" href="https://rawgit.com/mohamedlounnas/materialize-rtl/v1.0.0-alpha.4/dist/css/materialize.rtl.css"/>
 ```
 
 material icons (add the class "rtlx"):
