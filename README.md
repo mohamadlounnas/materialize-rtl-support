@@ -1,18 +1,17 @@
-# materialize-rtl
+# Materialize RTL
 materialize rtl support (v1.0.0-rc.1)
 
 CSS: 100% 💯
 Components: 100% 💯
 Javascript: 98% 🥇
- - Carousel: carousel-item direction
- - Tabs: indicator > https://github.com/mohamedlounnas/materialize-rtl/blob/master/dist/js/tabs.js
+ - Carousel: !!😓 carousel-item direction
+ - Tabs: !!😓 indicator -> https://github.com/atechni/materialize-rtl-support/blob/master/dist/js/tabs.js
 
 Forms: 99% 🥇
-
-HTML5 Range: thumb direction
+ - Range: !!😓 HTML5 thumb direction
 👍
 
-added after original materialize:
+1)_ [Download](https://github.com/atechni/materialize-rtl-support/archive/v1.0.0-rc.1.zip) and added after original materialize:
 ```html
 <!-- materialize -->
 <link rel="stylesheet" href="materialize.min.css"/>
