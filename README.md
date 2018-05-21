@@ -9,7 +9,6 @@ Javascript: 98% 🥇
 
 Forms: 99% 🥇
  - Range: !!😓 HTML5 thumb direction
-👍
 
 1)_ [Download](https://github.com/atechni/materialize-rtl-support/archive/v1.0.0-rc.1.zip) and added after original materialize:
 ```html
@@ -20,7 +19,7 @@ Forms: 99% 🥇
 <link rel="stylesheet" href="materialize.rtl.min.css"/>
 ```
 
-CDN:
+2)_ CDN:
 ```html
 <!-- latest materialize -->
 <link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/1.0.0-rc.1/dist/css/materialize.min.css"/>
