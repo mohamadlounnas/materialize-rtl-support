@@ -25,7 +25,7 @@ Forms: 99% 🥇
 <link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/1.0.0-rc.1/dist/css/materialize.min.css"/>
 
 <!-- materialize right-to-left -->
-<link rel="stylesheet" href="https://rawgit.com/mohamedlounnas/materialize-rtl/v1.0.0-rc.1/dist/css/materialize.rtl.min.css"/>
+<link rel="stylesheet" href="https://rawgit.com/atechni/materialize-rtl-support/v1.0.0-rc.1/dist/css/materialize.rtl.min.css"/>
 ```
 
 material icons (add the class "rtlx"):
