@@ -1394,6 +1394,11 @@ input:not([type]) + label::after, input[type="text"]:not(.browser-default) + lab
 .autocomplete-content img.right.circle {
     float: left!important
 }
+
+.character-counter {
+    float: left !important;
+}
+
 /* ->File Input */
 .file-field .btn, .file-field .btn-large {
     float: right;
