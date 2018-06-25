@@ -1258,6 +1258,10 @@ nav .input-field label {
 nav .sidenav-trigger {
     float: right;
 }
+/* Tabs */
+.tabs .indicator {
+    transition: right 0.3s ease-in-out, left 0.3s ease-in-out;
+}
 /* Toasts */
 #toast-container {
     left: 7%;
