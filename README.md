@@ -1,16 +1,15 @@
 # Materialize RTL
-materialize rtl support (v1.0.0-rc.1)
+materialize rtl support (v1.0.0-rc.2)
 
 CSS: 100% 💯
 Components: 100% 💯
-Javascript: 98% 🥇
- - Carousel: !!😓 carousel-item direction
- - Tabs: !!😓 indicator -> https://github.com/atechni/materialize-rtl-support/blob/master/dist/js/tabs.js
+Javascript: 99% 🥇
+ - Carousel: !!😓 carousel-item direction ><
 
 Forms: 99% 🥇
  - Range: !!😓 HTML5 thumb direction
 
-1)_ [Download](https://github.com/atechni/materialize-rtl-support/archive/v1.0.0-rc.1.zip) and added after original materialize:
+1)_ [Download](https://github.com/atechni/materialize-rtl-support/archive/v1.0.0-rc.2.zip) and added after original materialize:
 ```html
 <!-- materialize -->
 <link rel="stylesheet" href="materialize.min.css"/>
@@ -22,10 +21,10 @@ Forms: 99% 🥇
 2)_ CDN:
 ```html
 <!-- latest materialize -->
-<link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/1.0.0-rc.1/dist/css/materialize.min.css"/>
+<link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/1.0.0-rc.2/dist/css/materialize.min.css"/>
 
 <!-- materialize right-to-left -->
-<link rel="stylesheet" href="https://rawgit.com/atechni/materialize-rtl-support/v1.0.0-rc.1/dist/css/materialize.rtl.min.css"/>
+<link rel="stylesheet" href="https://rawgit.com/atechni/materialize-rtl-support/v1.0.0-rc.2/dist/css/materialize.rtl.min.css"/>
 ```
 
 material icons (add the class "rtlx"):
@@ -33,7 +32,6 @@ material icons (add the class "rtlx"):
 ```html
 <i class="material-icons rtlx">play_arrow</i>
 ```
-
 Navbar:
 ```html
   <nav>
@@ -68,12 +66,15 @@ noUiSlider.create(slider, {
 
 Tabs:  
 ```javascript
-// -> https://github.com/atechninfo/materialize-rtl/blob/master/js/tabs.js
-$('ul.tabs').tabs({
-   //...
-   direction: 'auto', // default -> auto detect page direction rtl|ltr
-   //...
+var elems = document.querySelectorAll('.tabs');
+var instance = M.Tabs.init(elems, {
+	duration:0
 });
+```
+```css
+.tabs .indicator {
+    transition: right 0.3s ease-in-out, left 0.3s ease-in-out;
+}
 ```
 
 functions:
