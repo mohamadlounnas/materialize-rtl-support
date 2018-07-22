@@ -1227,6 +1227,10 @@ nav .input-field label {
     -webkit-transform-origin: right top !important;
     transform-origin: right top !important;
 }
+.prefix ~ .select-wrapper {
+    margin-right: 3rem;
+    margin-left: unset;
+}
 /* Modals */
 .modal .modal-footer {
     text-align: left
