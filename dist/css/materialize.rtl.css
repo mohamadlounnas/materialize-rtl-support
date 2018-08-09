@@ -1062,7 +1062,7 @@ span.badge {
 }
 
 /* icons */
-.material-icons {
+.material-icons:not(.rtlx) {
     direction: rtl
 }
 
