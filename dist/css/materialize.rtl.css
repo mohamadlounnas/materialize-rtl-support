@@ -1,5 +1,5 @@
 /*
- * materialize RTL v1.0.0-rc.2
+ * materialize RTL v1
  * By @mohamadlounnas
  * Github: https://github.com/atechni/materialize-rtl-support
  * Source Code: https://github.com/atechni/materialize-rtl-support
@@ -1392,6 +1392,8 @@ input:not([type]) + label::after, input[type="text"]:not(.browser-default) + lab
 .input-field > label:not(.label-icon).active,.input-field > label {
     -webkit-transform-origin: right;
     transform-origin: right;
+    left: unset;
+    right: 0;
 }
 
 .input-field .helper-text::after {
