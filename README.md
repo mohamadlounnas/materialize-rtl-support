@@ -1,15 +1,13 @@
 # Materialize RTL
-materialize rtl support (v1.0.0-rc.2)
+materialize rtl support (v1)
 
 CSS: 100% 💯
 Components: 100% 💯
 Javascript: 99% 🥇
- - Carousel: !!😓 carousel-item direction ><
+ - Carousel: !!😓 carousel-item direction >[ ]<
+Forms: 100% 💯
 
-Forms: 99% 🥇
- - Range: !!😓 HTML5 thumb direction
-
-1)_ [Download](https://github.com/atechni/materialize-rtl-support/archive/v1.0.0-rc.2.zip) and added after original materialize:
+1)_ [Download](https://github.com/atechni/materialize-rtl-support/archive/v1.0.0.zip) and added after original materialize:
 ```html
 <!-- materialize -->
 <link rel="stylesheet" href="materialize.min.css"/>
@@ -21,10 +19,10 @@ Forms: 99% 🥇
 2)_ CDN:
 ```html
 <!-- latest materialize -->
-<link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/1.0.0-rc.2/dist/css/materialize.min.css"/>
+<link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/v1.0.0/dist/css/materialize.min.css"/>
 
 <!-- materialize right-to-left -->
-<link rel="stylesheet" href="https://rawgit.com/atechni/materialize-rtl-support/v1.0.0-rc.2/dist/css/materialize.rtl.min.css"/>
+<link rel="stylesheet" href="https://rawgit.com/atechni/materialize-rtl-support/v1.0.0/dist/css/materialize.rtl.min.css"/>
 ```
 
 material icons (add the class "rtlx"):
@@ -70,11 +68,6 @@ var elems = document.querySelectorAll('.tabs');
 var instance = M.Tabs.init(elems, {
 	duration:0
 });
-```
-```css
-.tabs .indicator {
-    transition: right 0.3s ease-in-out, left 0.3s ease-in-out;
-}
 ```
 
 functions:
