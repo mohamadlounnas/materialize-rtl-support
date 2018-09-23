@@ -19,7 +19,7 @@ Forms: 100% 💯
 2)_ CDN:
 ```html
 <!-- latest materialize -->
-<link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/v1.0.0/dist/css/materialize.min.css"/>
+<link rel="stylesheet" href="https://rawgit.com/Dogfalo/materialize/1.0.0/dist/css/materialize.min.css"/>
 
 <!-- materialize right-to-left -->
 <link rel="stylesheet" href="https://rawgit.com/atechni/materialize-rtl-support/v1.0.0/dist/css/materialize.rtl.min.css"/>
