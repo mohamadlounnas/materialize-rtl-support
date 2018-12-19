@@ -77,17 +77,20 @@ functions:
  */
 function isRTL(el)
 {
-  var x = document.getElementById(el) || document.body; // if "el" empty -> get body direction
-  if (x.currentStyle)
-  var y = x.currentStyle['direction'];
-   else if (window.getComputedStyle)
-  var y = document.defaultView.getComputedStyle(x, null).getPropertyValue('direction');
+  var x = document.getElementById(el) || document.body;
+  if (x.currentStyle) {
+    var y = x.currentStyle['direction'];
+  } 
+  else if (window.getComputedStyle) {
+    var y = document.defaultView.getComputedStyle(x, null).getPropertyValue('direction');
+  }
   if (y == 'rtl') {
     return true;
   } else {
     return false;
   }
 }
+
 ```
 
 Enjoy ;)
