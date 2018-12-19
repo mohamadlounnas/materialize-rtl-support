@@ -1,12 +1,14 @@
 # Materialize RTL
+--
 ملف لدعم اللغات التي تعتمد الإتجاه من اليمين إلى اليسار في إطار العمل materialize
+--
 materialize rtl support (v1)
 
-CSS: 100% 💯
-Components: 100% 💯
-Javascript: 99% 🥇
- - Carousel: !!😓 carousel-item direction >[ ]<
-Forms: 100% 💯
+- CSS: 100% 💯
+- Components: 100% 💯
+- Javascript: 99% 🥇
+ -- Carousel: !!😓 carousel-item direction >[ ]<
+- Forms: 100% 💯
 
 1)_ [Download](https://github.com/atechni/materialize-rtl-support/archive/v1.0.0.zip) and added after original materialize:
 ```html
