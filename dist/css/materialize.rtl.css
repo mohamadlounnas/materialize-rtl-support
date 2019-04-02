@@ -1267,9 +1267,17 @@ nav .sidenav-trigger {
     transition: right 0.3s ease-in-out, left 0.3s ease-in-out;
 }
 /* Toasts */
-#toast-container {
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+ #toast-container {
+    left: 5%;
+    right: auto
+ }
+}
+@media only screen and (min-width: 993px) {
+ #toast-container {
     left: 7%;
     right: auto
+ }
 }
 
 .toast .toast-action {
