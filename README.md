@@ -1,8 +1,6 @@
 # Materialize RTL
 --
-<p dir="rtl">
-ملف لدعم اللغات التي تعتمد الإتجاه من اليمين إلى اليسار في إطار العمل materialize
-</p>
+<p dir="rtl">ملف لدعم اللغات التي تعتمد الإتجاه من اليمين إلى اليسار في إطار العمل materialize</p>
 --
 materialize rtl support (v1)
 
